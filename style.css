@@ -1,0 +1,82 @@
+/* Stili generali */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #eee;
+}
+
+/* Header */
+header {
+  background: #222;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Navigazione */
+nav {
+  text-align: center;
+  background: #333;
+  padding: 10px;
+}
+nav a {
+  color: #eee;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('immagine-rapper.jpg') center/cover no-repeat;
+  color: #fff;
+}
+.hero h2 {
+  font-size: 2em;
+}
+
+/* Bio */
+.bio-section {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Sezione contatti */
+h1.contatti-titolo {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.rapper-card {
+  background: #222;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.rapper-card h2 {
+  margin-top: 0;
+}
+.social-links a {
+  margin-right: 15px;
+  color: #03a9f4;
+  text-decoration: none;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #aaa;
+}
