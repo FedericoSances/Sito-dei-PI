@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rapper Bio Hub</title>
-  <link rel="stylesheet" href="style.css">
   <style>
     body {
       margin: 0;
@@ -22,6 +21,42 @@
       color: #f90;
       margin-bottom: 20px;
       text-shadow: 2px 2px #000;
+    }
+
+    .bio-links {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      margin-top: 30px;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .bio-links a {
+      display: block;
+      text-align: center;
+      padding: 20px;
+      font-size: 1.5em;
+      background: #222;
+      border: 3px dashed #f90;
+      border-radius: 20px;
+      color: #f90;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .bio-links a:hover {
+      background: #f90;
+      color: #000;
+      transform: scale(1.05) rotate(-1deg);
+      box-shadow: 0 0 20px #f90aa0;
+    }
+
+    .slogan {
+      font-style: italic;
+      margin-top: 20px;
+      color: #ccc;
+      text-align: center;
     }
   </style>
 </head>
